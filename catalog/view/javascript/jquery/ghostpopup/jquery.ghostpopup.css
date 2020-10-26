@@ -1,0 +1,112 @@
+.box-modal {
+    position: relative;
+    color: #3c3c3c;
+    font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+    
+    width: 430px; 
+    height: auto; 
+    background-color: white;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 0 5px rgba(153, 153, 153, 0.23);
+}
+
+.box-modal h3 {
+     color: #e56867;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.box-modal p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.box-modal_close { 
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
+    font-size: 11px; 
+    line-height: 15px; 
+    color: #999; 
+    cursor: pointer; 
+}
+.box-modal_close:hover { 
+    color: #666; 
+}
+
+.icon-modal {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(icons.png);
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.icon-modal.mclose {
+    width: 15px;
+    height: 15px;
+    background-position: 0 -32px;
+}
+
+.ghostpopup-overlay,
+.ghostpopup-container
+{
+    position: fixed;
+    z-index: 1000; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.ghostpopup-container
+{
+    overflow: auto;
+
+    margin: 0;
+    padding: 0;
+
+    border-collapse: collapse; 
+
+    border: 0;
+}
+*:first-child + html .ghostpopup-container
+{
+    height: 100%;
+}
+.ghostpopup-table
+{
+    height: 100%;
+    margin: 0 auto;
+}
+.ghostpopup-body
+{
+    margin: 0;
+    padding: 24px;
+
+    vertical-align: middle; 
+
+    border: 0;
+}
+.ghostpopup-error
+{
+    padding: 20px;
+
+    color: #fff; 
+    border-radius: 10px;
+    background: #000;
+}
+.ghostpopup-loading
+{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 10px;
+    background: #000 url(loading.gif) no-repeat 50% 50%;
+}
