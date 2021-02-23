@@ -1,6 +1,6 @@
-# opencart-ghost-popup
-Всплывающий попап при заходе посетителя на страницу сайта
+# OpenCart-Ghost-popup
+Pop-up popup when visitor entering the site page
 
-Для установки необходимо: 
-1) скопировать папки admin и catalog директорию с Опенкартом
-2) установить модуль из админки сайта
+For installation it is necessary:
+1) Copy the Admin and Catalog folders directory with opens
+2) Install the site admin module 
